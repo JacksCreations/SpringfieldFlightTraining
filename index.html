@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="styles2.css" />
 </head>
 
-<body style="overflow-x: hidden;">
+<body style="overflow: hidden;">
   <div class="container-custom-size container-fluid no-padding-container">
     <!--NAVBAR BEGIN-->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -63,8 +63,8 @@
     <div class="image-container">
       <img src="images/HomePageView.jpeg" alt="Your Image Description" id="MainImage" />
       <div class="overlay">
-        <h1 class="no-wrap-h1">Where dreams take flight.</h1>
-        <h3 class="no-wrap-h3">Start your flying journey today with Springfield Flight Training.</h3>
+        <h1>Where dreams take flight.</h1>
+        <h3>Start your flying journey today with Springfield Flight Training.</h3>
         <button>START TODAY!</button>
       </div>
     </div>
@@ -74,12 +74,11 @@
     <div class="gradient-rectangle"></div>
 
     <!-- INFORMATION BELOW THE BIG PICTURE -->
-
-    <div class="row">
+    <div class="row" style="padding: 0; margin: 0;">
       <div class="col-md-4">
         <div class="overlay-container">
           <a href="#">
-            <img src="images/JackAndLuke_Cropped.jpeg" class="img-fluid columnPics animate-on-scroll" alt="Responsive Image">
+            <img src="images/JackAndLuke_Cropped.jpeg" class="img-fluid columnPics" alt="Responsive Image">
             <h2 id="overlay-text">Our Story</h2>
           </a>
         </div>
@@ -87,8 +86,11 @@
 
       <div class="col-md-4">
         <div class="overlay-container">
-          <img src="images/Cloud.jpeg" class="img-fluid columnPics" alt="Responsive Image">
-          <h2 id="overlay-text">What we offer</h2>
+          <a href="#">
+            <img src="images/Cloud.jpeg" class="img-fluid columnPics" alt="Responsive Image">
+            <h2 id="overlay-text">What we offer</h2>
+          </a>
+          
 
         </div>
       </div>

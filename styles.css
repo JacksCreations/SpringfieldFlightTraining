@@ -14,6 +14,8 @@ font-size: clamp(16px, 4vw, 40px);
 /* Main image container */
 #MainImage {
     width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
     
 }
 
@@ -105,13 +107,13 @@ font-size: clamp(16px, 4vw, 40px);
     margin: 0 10%;
     border-radius: 16px;
     margin-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     padding-top: 10px;
 }
 
 .overlay-container {
-    position: relative;
+    position:relative;
 }
 
 #overlay-text {
@@ -124,6 +126,10 @@ font-size: clamp(16px, 4vw, 40px);
     font-size: clamp(22px, 4vw, 30px);
     text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.9); /* Add the drop shadow with blur effect */
     text-transform: uppercase;
+}
+
+.column_containers{
+  width: 100%;
 }
 
 
@@ -215,7 +221,7 @@ font-size: clamp(16px, 4vw, 40px);
 
   @font-face {
     font-family: 'Coolvetica'; /* Replace with the desired font name */
-    src: url('fonts/coolvetica/coolvetica rg.otf') format('opentype'); /* Adjust the path to your font file */
+    src: url('fonts/coolvetica/coolvetica.otf') format('opentype'); /* Adjust the path to your font file */
     font-weight: normal;
     font-style: normal;
   }
