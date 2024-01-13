@@ -215,7 +215,7 @@ font-size: clamp(16px, 4vw, 40px);
 
   @font-face {
     font-family: 'Coolvetica'; /* Replace with the desired font name */
-    src: url('fonts/coolvetica/coolvetica rg.otf') format('truetype'); /* Adjust the path to your font file */
+    src: url('fonts/coolvetica/coolvetica rg.otf') format('opentype'); /* Adjust the path to your font file */
     font-weight: normal;
     font-style: normal;
   }
