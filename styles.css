@@ -149,7 +149,7 @@ font-size: clamp(16px, 4vw, 40px);
   width: 70%;
   max-width: 650px;
   background-color: rgb(53, 112, 209);
-  height: 7.5vh;
+  height: 6vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,7 +211,7 @@ a:hover{
     height: 50px; /* Adjust the height as needed */
     background: linear-gradient(to bottom, rgb(81, 165, 211, 0.95),rgb(255, 255, 255)); /* Adjust gradient colors as needed */
     transition: background 0.8s ease; /* Adjust transition properties as needed */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   /* Footer */
