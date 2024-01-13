@@ -91,7 +91,7 @@ font-size: clamp(16px, 4vw, 40px);
 /* Start Today button */
   .overlay button {
     padding: 10px 30px;
-    background-color: rgb(71, 129, 203, 0.95); /* Adjust button color as needed */
+    background-color: rgb(71, 129, 203, 0.7); /* Adjust button color as needed */
     border-width: 4px;
     border-color: white;
     color: white;
@@ -174,7 +174,7 @@ font-size: clamp(16px, 4vw, 40px);
 
 
 .btn-1 {
-  background-image: linear-gradient(to right, #a1c4fd 0%, rgb(53, 112, 209) 51%, #a1c4fd 100%);
+  background-image: linear-gradient(to right, #65a0ff 0%, rgb(53, 112, 209) 51%, #a1c4fd 100%);
 }
 
 a:hover{
@@ -225,6 +225,7 @@ a:hover{
     padding-top: 10px;
     align-items: center;
     text-align: center;
+    width:100%;
   }
 
 
