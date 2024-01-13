@@ -208,7 +208,7 @@ font-size: clamp(16px, 4vw, 40px);
 
 @media (min-width: 600px) {
     .container-custom-size {
-      max-width: 1500px; /* Adjust the max-width according to your needs 
+      max-width: 1500px; /* Adjust the max-width according to your needs */
     }
 } 
 
