@@ -36,8 +36,8 @@ font-size: clamp(16px, 4vw, 40px);
 
   .overlay {
     position: absolute;
-    bottom: 7%;
-    left: 4%;
+    bottom: 15%;
+    left: 6%;
     padding: 10px; /* Adjust padding as needed */
    
   }
