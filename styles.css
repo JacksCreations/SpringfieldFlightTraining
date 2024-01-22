@@ -18,9 +18,18 @@
   font-size: clamp(24px, 6vw, 36px);
   font-family: 'Coolvetica';
   text-align: left;
-  padding: 15px;
+  padding: 10px 20px 0px 15px;
   letter-spacing: 1px;
   animation: fadeInUp 1.5s ease-out forwards;
+ }
+
+ .content-subtitle{
+  font-size: clamp(20px, 4vw, 28px);
+  font-family: 'Coolvetica';
+  text-align: left;
+  padding: 15px;
+  letter-spacing: 1px;
+  animation: fadeInUp 2s ease-out forwards;
  }
 
 .content-p{
@@ -28,7 +37,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: 'Roboto';
-  animation: fadeInUp 2s ease-out forwards;
+  animation: fadeInUp 2.5s ease-out forwards;
 }
 
 /* Main image container */
