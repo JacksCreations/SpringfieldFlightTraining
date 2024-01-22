@@ -4,7 +4,7 @@
     font-family: 'Coolvetica', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-font-size: clamp(16px, 4vw, 40px);
+    font-size: clamp(16px, 4vw, 40px);
     margin-top: 8px;
     margin-left: 1%;
 
@@ -13,6 +13,23 @@ font-size: clamp(16px, 4vw, 40px);
   opacity: 0.6
 }
 
+ /*Content pages text */
+ .content-title{
+  font-size: clamp(24px, 6vw, 36px);
+  font-family: 'Coolvetica';
+  text-align: left;
+  padding: 15px;
+  letter-spacing: 1px;
+  animation: fadeInUp 1.5s ease-out forwards;
+ }
+
+.content-p{
+  font-size: clamp(12px, 4vw, 26px);
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Roboto';
+  animation: fadeInUp 2s ease-out forwards;
+}
 
 /* Main image container */
 #MainImage {
