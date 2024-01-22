@@ -40,6 +40,15 @@
   animation: fadeInUp 2.5s ease-out forwards;
 }
 
+.indent{
+  margin-left: 15px;
+}
+
+.indentx2{
+  margin-left: 30px;
+  list-style: '- ';
+}
+
 /* Main image container */
 #MainImage {
     width: 100%;
